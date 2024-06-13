@@ -26,4 +26,16 @@
 
 ## Task 4: Create Extension Method
 
-- **Objective:** Create another Console Application project. Implement a static extension method `GetArray(this MyList list)` for the `MyList` class developed in Task 2. Display 
+- **Objective:** Create another Console Application project. Implement a static extension method `GetArray(this MyList list)` for the `MyList` class developed in Task 2. Display the values of the array returned by the `GetArray()` method.
+
+## Task 5: Research on MSDN
+
+- **Objective:** Visit the MSDN website and search for descriptions related to each example covered in the lesson. Save links and provide brief descriptions for each:
+  - Classes and Objects
+  - Methods and Properties
+  - Interfaces
+  - Generics
+  - Indexers
+  - Exception Handling
+
+Ensure to replace placeholders with actual links and descriptions based on your research findings. This README serves as a structured guide to completing the homework tasks effectively.
