@@ -1,3 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Task3;
 
-Console.WriteLine("Hello, World!");
+class Program
+{
+    static void Main(string[] args)
+    {
+        MagicalBag magicalBag = new MagicalBag();
+        Console.WriteLine(magicalBag.GetGift(CreatureType.Dwart));
+        Console.WriteLine(magicalBag.GetGift(CreatureType.Elf));
+        
+        Console.WriteLine(magicalBag.GetGift(CreatureType.Elf));
+        Console.WriteLine(magicalBag.GetGift(CreatureType.Magisian));
+        Console.WriteLine(magicalBag.GetGift(CreatureType.Witch));
+        
+    }
+
+}
